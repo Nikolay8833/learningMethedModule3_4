@@ -1,0 +1,122 @@
+.present__position {
+  position: relative;
+}
+
+.present__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.present__ads {
+  display: flex;
+  max-width: 400px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.present__box {
+  display: flex;
+  gap: 40px;
+}
+
+.present__text {
+  font-size: 30px;
+  line-height: 34px;
+  align-self: end;
+  text-align: center;
+}
+
+.present__text1 {
+  display: block;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 141px;
+  color: var(--main-color-CD06FF);
+}
+
+.present__text2 {
+  display: block;
+  font-weight: 900;
+  font-size: 75px;
+  line-height: 106px;
+  font-variant: all-small-caps;
+  color: var(--main-color-CD06FF);
+}
+
+.button--present {
+  max-width: 375px;
+  font-size: 26px;
+  padding: 25px 70px;
+  background: var(--main-color-6C0287);
+  border: none;
+  border-radius: 10px;
+  transition-duration: 0.2s;
+}
+
+.button--present:hover {
+  background: var(--present-color-840AA3);
+}
+
+.button--present:focus {
+  background: var(--present-color-840AA3);
+}
+
+.button--present:active {
+  background: var(--main-color-640AA3);
+}
+
+.present__img {
+  max-width: 675px;
+}
+
+.present__down {
+  position: absolute;
+  right: 46%;
+  bottom: 90px;
+}
+
+.present__down > svg > .present__down--circle{
+  transition-duration: 0.2s;
+}
+
+.present__down > svg > .present__down--rect {
+  transition-duration: 0.2s;
+}
+
+.present__down > svg > .present__down--rect-border {
+  transition-duration: 0.2s;
+}
+
+.present__down:hover > svg > .present__down--circle {
+  fill: var(--main-color-FFFFFF);
+}
+
+.present__down:hover > svg > .present__down--rect {
+  fill: var(--main-color-6C0287);
+}
+
+.present__down:focus > svg > .present__down--circle {
+  fill: none;
+  stroke: var(--main-color-FFFFFF);
+}
+
+.present__down:focus > svg > .present__down--rect {
+  fill: var(--main-color-FFFFFF);
+}
+
+.present__down:focus > svg > .present__down--rect-border {
+  stroke: var(--main-color-CD06FF);
+}
+
+.present__down:active > svg > .present__down--circle {
+  fill: var(--main-color-CD06FF);
+  stroke: var(--main-color-CD06FF);
+}
+
+.present__down:active > svg > .present__down--rect {
+  fill: var(--main-color-FFFFFF);
+}
+
+.present__down:active > svg > .present__down--rect-border {
+  stroke: none;
+}
